@@ -22,5 +22,6 @@ def get(event, context):
         "body": json.dumps(result['Item'],
                            cls=decimalencoder.DecimalEncoder)
     }
+    
 
     return response
